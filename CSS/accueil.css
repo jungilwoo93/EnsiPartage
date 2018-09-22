@@ -1,0 +1,82 @@
+.main_page{
+	width:80%;
+	margin:auto;
+	background:#f1f2f3;
+	background-color: rgba(0, 0, 0, 0);
+}
+.event_msg{
+	width:100%;
+	margin-bottom:20px;
+
+}
+
+
+#event{
+	width:49%;
+	float:left;
+	background:#fff;
+	/*border-top-color:black;
+	border-top: solid black 5px;*/
+	/*border-bottom:solid #f1f2f3 10px;
+	border-right:solid #f1f2f3 10px;*/
+	
+}
+
+#meg{
+	width:49%;
+	background:#fff;
+	float:right;
+	/*border-top: solid black 5px;*/
+	/*border-bottom:solid #f1f2f3 10px;
+	border-right:solid #f1f2f3 10px;*/
+
+}
+
+.group_cal_tab{
+	width:100%;
+	margin-bottom:20px;
+}
+
+.group_cal{
+	width:49%;
+	float:left;
+}
+
+#group{
+	width:100%;
+	background:#fff;
+}
+
+#calendrier{
+	width:100%;
+	background:#fff;
+}
+
+#tableau{
+	width:49%;
+	float:right;
+}
+#tableau-body{
+	min-height:215px;
+}
+
+.lien_externe{
+	width:100%;
+	background:#fff;
+	clear:both;
+}
+h3{
+	text-align:center;
+	
+}
+
+.panel{margin-bottom:20px;background-color:#fff;border:1px solid transparent;border-radius:4px;-webkit-box-shadow:0 1px 1px #00bbe4;box-shadow:0 1px 1px #00bbe4;}
+.panel-body{padding:15px;background-color:AliceBlue}
+.panel-heading{padding:2px 2px;border-bottom:1px solid transparent;border-top-left-radius:15px;border-top-right-radius:15px;border-bottom-left-radius:5px;border-bottom-right-radius:5px;}
+.panel-heading>.dropdown .dropdown-toggle{color:inherit;}
+.panel-title{margin-top:0;margin-bottom:0;font-size:16px;color:inherit;}
+.panel-title>.small,.panel-title>.small>a,.panel-title>a,.panel-title>small,.panel-title>small>a{color:inherit;}
+.panel-footer{padding:10px 15px;background-color:#f5f5f5;border-top:1px solid #ddd;border-bottom-right-radius:5px;border-bottom-left-radius:5px;}
+.panel-default{border-color:#ddd;}
+.panel-default>.panel-heading{color:#333;background-color:#deefff;border-color:#ddd;}
+.panel-default>.panel-heading+.panel-collapse>.panel-body{border-top-color:#ddd;}

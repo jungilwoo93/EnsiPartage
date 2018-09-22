@@ -1,0 +1,63 @@
+#in:focus,#area:focus {
+	background-color:F5F5DF;
+}
+#in[type=submit]:focus {
+	background-color:FFF3F3;
+}
+#in[type=submit]:hover {
+	background-color:FCDEDE;
+}
+#in[type=submit]:active {
+	background-color:FCDEDE;
+	box-shadow:1px 1px 1px D83F3D inset;
+}
+#gauche ul li{
+    vertical-align: top;
+	text-decoration:none;
+}
+#menu ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+	text-align:center;
+}
+#menu li{
+	display:inline-block;
+	position:relative;
+	border-radius:8px 8px 0 0;
+}
+#menu ul li{
+	display:inherit;
+	border-radius:0;
+}
+#menu ul li:hover{
+	border-radius:0;
+}
+#menu li:hover ul{
+	max-height:20em;
+}
+/* background des liens sous menus */
+#menu li:first-child li{
+	background:#2A2333;
+}
+#menu li:nth-child(2) li{
+	background:#333A40;
+}
+#menu li:nth-child(3) li{
+	background:#9F391A;
+}
+#menu li:last-child li{
+	background:#677F35;
+}
+/* les a href */
+#menu a{
+	text-decoration:none;
+	display:block;
+	padding:8px 32px;
+	color:#fff;
+	font-family:arial;
+}
+#menu li:hover li a{
+	color:#fff;
+	text-transform:inherit;
+}

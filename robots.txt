@@ -1,0 +1,6 @@
+User-Agent: *
+Disallow: /404.php
+Disallow: /traitement-connexion.php
+Disallow: /traitement-inscription.php
+Disallow: /traitement.php
+Disallow: /valide_dec.php

@@ -1,0 +1,32 @@
+
+#contenu_profilUser{
+	width:100%;
+	margin-top:20vh;
+}
+
+.main_page{
+	width:80%;
+	background:#fff;
+	margin:auto;
+	
+}
+
+.profil_donnees{
+	width:100%;
+}
+
+.profil{
+	width:90%;
+	text-align:center;
+	
+}
+
+.donnees{
+	width:70%;
+	margin:auto;
+}
+
+.info{
+	padding-bottom:20px;
+	
+}
